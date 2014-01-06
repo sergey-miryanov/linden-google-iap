@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+
+  <classpath name="src" />
+
+  <section if="android">
+
+    <dependency name="linden-google-iap" path="dependencies/linden-google-iap" if="android" />
+    <android extension="ru.zzzzzzerg.linden.GoogleIAP" />
+
+  </section>
+</extension>
+
