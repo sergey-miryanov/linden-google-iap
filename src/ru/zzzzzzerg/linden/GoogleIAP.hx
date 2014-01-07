@@ -1,30 +1,15 @@
 package ru.zzzzzzerg.linden;
 
+
+import ru.zzzzzzerg.linden.iap.ConnectionHandler;
+import ru.zzzzzzerg.linden.iap.PurchaseHandler;
+import ru.zzzzzzerg.linden.iap.PurchaseInfo;
+import ru.zzzzzzerg.linden.iap.ProductInfo;
+
 #if android
 
 import openfl.utils.JNI;
 import haxe.Json;
-
-import ru.zzzzzzerg.linden.iap.ConnectionHandler;
-import ru.zzzzzzerg.linden.iap.PurchaseHandler;
-
-typedef ProductInfo = {
-  title : String,
-  price : String,
-  type : String,
-  description : String,
-  productId : String,
-};
-
-typedef PurchaseInfo = {
-  developerPayload : String,
-  orderId : String,
-  productId : String,
-  purchaseToken : String,
-  purchaseTime : String,
-  purchaseState : String,
-  packageName : String,
-};
 
 class GoogleIAPImpl
 {

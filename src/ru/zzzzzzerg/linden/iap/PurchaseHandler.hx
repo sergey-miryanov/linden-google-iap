@@ -1,9 +1,6 @@
 package ru.zzzzzzerg.linden.iap;
 
-#if android
-
 import haxe.Json;
-import ru.zzzzzzerg.linden.GoogleIAP;
 
 class PurchaseHandler
 {
@@ -28,4 +25,3 @@ class PurchaseHandler
   }
 }
 
-#end
