@@ -1,0 +1,14 @@
+{
+    "name"         : "linden-google-iap",
+    "url"          : "https://github.com/sergey-miryanov/linden-google-iap",
+    "license"      : "MIT",
+    "tags"         : ["openfl", "extension", "google", "iap", "purchase", "android"],
+    "description"  : "linden-google-iap is an Android extension for OpenFL for GooglePlay In-App Billing.",
+    "version"      : "1.0.0",
+    "releasenote"  : "Initial version",
+    "contributors" : ["SergeyMiryanov"],
+    "dependencies" : {
+        "openfl"        : "",
+        "openfl-native" : ""
+    }
+}
